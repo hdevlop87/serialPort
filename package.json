@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "name": "my-nextron-app",
+  "description": "My application description",
+  "version": "1.0.0",
+  "author": "Yoshihide Shiono <shiono.yoshihide@gmail.com>",
+  "main": "app/background.js",
+  "scripts": {
+    "dev": "nextron",
+    "build": "nextron build",
+    "postinstall": "electron-builder install-app-deps",
+    "watch": "nodemon --exec electron ."
+  },
+  "dependencies": {
+    "@iconify/react": "^4.0.0",
+    "@reduxjs/toolkit": "^1.8.6",
+    "@serialport/bindings-cpp": "^10.7.0",
+    "buffer": "^6.0.3",
+    "electron-main-window": "^1.0.4",
+    "electron-serve": "^1.1.0",
+    "electron-store": "^8.1.0",
+    "formik": "^2.2.9",
+    "next-redux-wrapper": "^8.0.0",
+    "react-datepicker": "^4.8.0",
+    "react-redux": "^8.0.4",
+    "socket.io-client": "^4.5.3",
+    "styled-components": "^5.3.6",
+    "styled-is": "^1.3.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "electron": "^20.1.0",
+    "electron-builder": "^23.3.3",
+    "next": "^12.2.5",
+    "nextron": "^8.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

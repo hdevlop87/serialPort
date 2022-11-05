@@ -1,0 +1,116 @@
+{
+    "portSetting":[
+        {
+            "id": "path",
+            "label":"Port",
+            "type": "select",
+            "options": [
+                "COM1",
+                "COM2",
+                "COM4"
+            ]
+        },
+        {
+            "id": "baudRate",
+            "label":"Baud Rate",
+            "type": "select",
+            "options": [
+                115200,
+                57600,
+                38400,
+                19200,
+                9600,
+                4800,
+                2400,
+                1200
+            ]
+        },
+        {
+            "id": "dataBits",
+            "label":"Data Bits",
+            "type": "select",
+            "options": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ]
+        },
+        {
+            "id": "parity",
+            "label":"Parity",
+            "type": "select",
+            "options": [
+                "None",
+                "Even",
+                "Odd",
+                "Mark",
+                "Space"
+            ]
+        },
+        {
+            "id": "stopBits",
+            "label":"Stop Bits",
+            "type": "select",
+            "options": [
+                "1",
+                "1.5",
+                "2"
+            ]
+        }
+    ],
+    "receiveSetting":[
+        {
+            "id": "receiveType",
+            "label":"Data Type ",
+            "type": "select",
+            "options": [
+                "Text",
+                "Hex"
+            ]
+        },
+        {
+            "id": "autoLF",
+            "label":"Auto Feed Line",
+            "type": "checkbox"
+        },
+        {
+            "id": "displayTime",
+            "label":"Display Time",
+            "type": "checkbox"
+        }
+    ],
+    "sendSetting":[
+        {
+            "id": "sendType",
+            "label":"Data Type ",
+            "type": "select",
+            "options": [
+                "Text",
+                "Hex"
+            ]
+        },
+        {
+            "id": "append",
+            "label":"Append",
+            "type": "select",
+            "options": [
+                "None",
+                "CR",
+                "LF",
+                "CR-LF"
+            ]
+        },
+        {
+            "id": "time",
+            "label":"Time",
+            "type": "text",
+            "Ricon":"ms"
+        },
+        {
+            "id": "loop",
+            "label":"Loop",
+            "type": "checkbox"
+        }
+    ]
+}
